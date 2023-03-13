@@ -1,0 +1,9 @@
+/*GLOBAL*/
+@import url('global/global.css');
+@import url('global/componentes.css');
+@import url('global/tipografia.css');
+@import url('global/cores.css');
+
+/*SEÇÕES*/
+@import url('secao1-hero.css');
+
