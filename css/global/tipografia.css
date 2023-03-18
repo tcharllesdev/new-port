@@ -1,7 +1,7 @@
 /*H1*/
 .font-h1-l {
   /*40*/
-  font: 700 2.5rem/1.25 "Inter", sans-serif;
+  font: 700 2.5rem/1.125 "Inter", sans-serif;
   letter-spacing: 0.01em;
 }
 .font-h1 {
@@ -13,23 +13,25 @@
 /*Texto*/
 .font-p-l {
   /*24*/
-  font: 700 1.5rem/1.125 "Inter", sans-serif;
+  font: 400 1.5rem/1.125 "Inter", sans-serif;
 }
 .font-p {
   /*20*/
-  font: 700 1.25rem/1.125 "Inter", sans-serif;
+  font: 400 1.25rem/1.125 "Inter", sans-serif;
 }
 .font-p-s {
   /*18*/
-  font: 700 1.125rem/1.125 "Inter", sans-serif;
+  font: 400 1.125rem/1.125 "Inter", sans-serif;
 }
 .font-p-xs {
   /*16*/
-  font: 700 1rem/1.125 "Inter", sans-serif;
+  font: 400 1rem/1.125 "Inter", sans-serif;
 }
 .font-sub {
   /*16 bold*/
-  font: 700 1rem/1.125 "Fira Code", sans-serif;
+  font: 700 1.125rem/1.125 "Fira Code", sans-serif;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 /*Botões*/
@@ -41,4 +43,12 @@
 .font-btn-xs {
   /*18 bold*/
   font: 700 1.125rem/1.125 "Fira Code", sans-serif;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.italic {
+  font-style: italic;
 }

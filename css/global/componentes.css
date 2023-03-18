@@ -5,6 +5,29 @@
 }
 @media (max-width: 1370px) {
   .container {
-    padding: 0 40px;
+    padding: 0 30px;
+  }
+}
+
+.btn1 {
+  background: linear-gradient(143.23deg, #7633b1 58.43%, #fc17fa 97.47%);
+  border-radius: 5px;
+  background-color: transparent;
+  padding: 10px 20px;
+  display: inline-block;
+  cursor: pointer;
+  overflow: hidden;
+  /* background-position: 0 0;
+  background-size: 400% 200%;
+  animation: textura 4s cubic-bezier(0.2, 0.5, 0.9, 0.6) 2s infinite;
+  transition: background 1.6s cubic-bezier(0.55, 0.1, 0.47, 0.94); */
+}
+
+@keyframes textura {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 100% 0;
   }
 }

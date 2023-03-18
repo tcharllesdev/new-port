@@ -1,0 +1,198 @@
+.hero-bg {
+  background: url("../img/icons/html-gradient.svg") no-repeat 80% 30%,
+    url("../img/icons/css-gradient.svg") no-repeat 60% 10%,
+    url("../img/icons/javascript-gradient.svg") no-repeat 60% 60%,
+    url("../img/hero-img.png") no-repeat 80% 70%/550px;
+  animation: 8s infinite alternate background;
+}
+
+@keyframes background {
+  from {
+    background: url("../img/icons/html-gradient.svg") no-repeat 80% 30% / 100px,
+      url("../img/icons/css-gradient.svg") no-repeat 65% 5% / 100px,
+      url("../img/icons/javascript-gradient.svg") no-repeat 70% 80% / 100px,
+      url("../img/hero-img.png") no-repeat 80% 70%/ 550px;
+  }
+  to {
+    background: url("../img/icons/html-gradient.svg") no-repeat 85% 40% / 100px,
+      url("../img/icons/css-gradient.svg") no-repeat 61% 20% / 100px,
+      url("../img/icons/javascript-gradient.svg") no-repeat 75% 85% / 100px,
+      url("../img/hero-img.png") no-repeat 80% 70%/ 550px;
+  }
+}
+
+.hero img {
+  margin: 60px 0 14px 0;
+}
+.hero span {
+  display: block;
+}
+
+.hero h1 {
+  max-width: 480px;
+  margin-top: 32px;
+  margin-bottom: 24px;
+}
+
+.hero p {
+  max-width: 466px;
+  margin-bottom: 12px;
+}
+
+.hero a {
+  margin: 12px 0 40px 0;
+}
+
+.hero-anima {
+  position: absolute;
+  top: 0;
+  right: 50vh;
+}
+.hero-anima img {
+  max-width: 90px;
+}
+
+.css-anima {
+  position: absolute;
+  top: 0px;
+  left: 20px;
+  animation: 8s infinite alternate css-anima;
+}
+
+.html-anima {
+  position: absolute;
+  top: 120px;
+  left: -300px;
+  animation: 8s infinite alternate html-anima;
+}
+
+.js-anima {
+  position: absolute;
+  top: 460px;
+  right: 40px;
+  animation: bounce-top 5s infinite alternate both;
+}
+
+@media (max-width: 1024px) {
+  .hero-bg {
+    background: url("../img/hero-img.png") no-repeat 100% 100%/ 550px;
+  }
+  @keyframes css-anima {
+    from {
+      top: 40px;
+      left: 150px;
+    }
+    to {
+      top: 200px;
+      left: 220px;
+    }
+  }
+  @keyframes html-anima {
+    from {
+      top: 120px;
+      left: -60px;
+    }
+    to {
+      top: 180px;
+      left: -100px;
+    }
+  }
+  .js-anima {
+    top: 480px;
+    right: -140px;
+  }
+  @keyframes background {
+    from {
+      background: url("../img/icons/html-gradient.svg") no-repeat 90% 30% /
+          100px,
+        url("../img/icons/css-gradient.svg") no-repeat 70% 5% / 100px,
+        url("../img/icons/javascript-gradient.svg") no-repeat 70% 80% / 100px,
+        url("../img/hero-img.png") no-repeat 100% 70%/ 550px;
+    }
+    to {
+      background: url("../img/icons/html-gradient.svg") no-repeat 94% 40% /
+          100px,
+        url("../img/icons/css-gradient.svg") no-repeat 65% 10% / 100px,
+        url("../img/icons/javascript-gradient.svg") no-repeat 75% 85% / 100px,
+        url("../img/hero-img.png") no-repeat 100% 70%/ 550px;
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  @keyframes background {
+    from {
+      background: url("../img/icons/html-gradient.svg") no-repeat 40% 0% / 80px,
+        url("../img/icons/css-gradient.svg") no-repeat 2% 10% / 80px,
+        url("../img/icons/javascript-gradient.svg") no-repeat 20% 30% / 80px,
+        url("../img/hero-img.png") no-repeat 0% 0%/ 420px;
+    }
+    to {
+      background: url("../img/icons/html-gradient.svg") no-repeat 49% 10% / 80px,
+        url("../img/icons/css-gradient.svg") no-repeat 8% 3% / 80px,
+        url("../img/icons/javascript-gradient.svg") no-repeat 26% 36% / 80px,
+        url("../img/hero-img.png") no-repeat 0% 0%/ 420px;
+    }
+  }
+  .hero img {
+    margin-top: 400px;
+  }
+}
+
+@media (max-width: 450px) {
+  @keyframes background {
+    from {
+      background: url("../img/icons/html-gradient.svg") no-repeat 76% 4% / 60px,
+        url("../img/icons/css-gradient.svg") no-repeat 2% 10% / 60px,
+        url("../img/icons/javascript-gradient.svg") no-repeat 16% 20% / 60px,
+        url("../img/hero-img.png") no-repeat 0% 0%/ 340px;
+    }
+    to {
+      background: url("../img/icons/html-gradient.svg") no-repeat 84% 12% / 60px,
+        url("../img/icons/css-gradient.svg") no-repeat 8% 3% / 60px,
+        url("../img/icons/javascript-gradient.svg") no-repeat 24% 26% / 60px,
+        url("../img/hero-img.png") no-repeat 0% 0%/ 340px;
+    }
+  }
+  .hero img {
+    margin-top: 330px;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+    margin-bottom: 12px;
+  }
+  .hero span {
+    font-size: 0.875rem;
+  }
+  .hero p {
+    font-size: 1.125rem;
+  }
+}
+
+@media (max-width: 377px) {
+  .hero img {
+    max-width: 280px;
+  }
+}
+
+@media (max-width: 340px) {
+  .hero a {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .hero img {
+    max-width: 260px;
+  }
+  .hero h1 {
+    font-size: 1.75rem;
+  }
+  .hero span {
+    font-size: 0.75rem;
+  }
+  .hero p {
+    font-size: 1rem;
+  }
+}

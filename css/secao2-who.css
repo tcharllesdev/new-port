@@ -1,0 +1,20 @@
+.who h1 {
+  margin: 40px 0 24px 0;
+  max-width: 720px;
+}
+
+.who li {
+  display: flex;
+  align-items: first baseline;
+  gap: 8px;
+  margin-bottom: 12px;
+  max-width: 520px;
+}
+
+.who > p:first-of-type {
+  margin-top: 24px;
+}
+
+.who > p {
+  margin-bottom: 12px;
+}
