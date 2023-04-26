@@ -1,0 +1,44 @@
+.diferenciais {
+  margin-top: 200px;
+}
+
+.diferenciais > h1 {
+  margin: 60px auto 24px auto;
+  text-align: center;
+  max-width: 620px;
+}
+
+.diferenciais > p {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.diferenciais-item {
+  max-width: 1160px;
+  padding: 40px 60px;
+  background-color: #f1eaf8;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  margin-top: 42px;
+}
+
+.diferenciais-item h1 {
+  margin-bottom: 18px;
+}
+
+.diferenciais-item p {
+  margin-bottom: 18px;
+}
+
+.diferenciais-item p:nth-child(3) {
+  margin-bottom: 8px;
+}
+
+.diferenciais-img p {
+  text-align: center;
+  margin-top: 12px;
+}
