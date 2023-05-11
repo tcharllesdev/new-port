@@ -78,7 +78,7 @@ gsap.utils.toArray(".projetos-item2").forEach((projetos2) => {
     start: "top top",
     pin: true,
     pinSpacing: false,
-    snap: 1 / (galeria2.length - 1),
+    //snap: 1 / (galeria2.length - 1),
     scrub: 1,
   });
 });

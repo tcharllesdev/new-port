@@ -1,0 +1,90 @@
+.etapas h1 {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin: 40px auto 20px auto;
+  max-width: 660px;
+}
+
+.etapas > ul {
+  display: flex;
+  gap: 40px;
+  padding: 40px;
+  justify-content: center;
+}
+
+.etapas-item {
+  max-width: 290px;
+  padding: 70px 30px 30px 30px;
+  box-shadow: 0px 0px 20px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  position: relative;
+  overflow: visible;
+}
+
+.etapas-item h2 {
+  margin-bottom: 8px;
+}
+
+.etapas-item1 {
+  position: relative;
+}
+
+.etapas-item1::before {
+  content: "";
+  background-image: url("../img/icons/briefing.svg");
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  top: -34px;
+  left: -23px;
+}
+
+.briefing-itens {
+  display: flex;
+}
+.etapas-item2 {
+  position: relative;
+}
+
+.etapas-item2::before {
+  content: "";
+  background-image: url("../img/icons/prototyping.svg");
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  top: -34px;
+  left: -23px;
+}
+.etapas-item3 {
+  position: relative;
+}
+
+.etapas-item3::before {
+  content: "";
+  background-image: url("../img/icons/approval.svg");
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  top: -34px;
+  left: -39px;
+}
+.etapas-item4 {
+  position: relative;
+}
+
+.etapas-item4::before {
+  content: "";
+  background-image: url("../img/icons/developer.svg");
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  top: -34px;
+  left: -23px;
+}
+
+@media (max-width: 1024px) {
+  .etapas ul {
+    flex-wrap: wrap;
+  }
+}

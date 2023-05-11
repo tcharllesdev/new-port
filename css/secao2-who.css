@@ -4,7 +4,7 @@
 
 .who h1 {
   margin: 40px 0 24px 0;
-  max-width: 720px;
+  max-width: 660px;
 }
 
 .who li {
@@ -21,4 +21,10 @@
 
 .who > p {
   margin-bottom: 12px;
+}
+
+@media (max-width: 450px) {
+  .who p {
+    font-size: 1rem;
+  }
 }

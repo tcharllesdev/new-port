@@ -32,7 +32,7 @@
 }
 
 .hero a {
-  margin: 12px 0 40px 0;
+  margin: 0px 0 40px 0;
 }
 
 .html-anima,
@@ -178,7 +178,7 @@
     font-size: 0.875rem;
   }
   .hero p {
-    font-size: 1.125rem;
+    font-size: 1rem;
   }
 }
 
@@ -219,7 +219,4 @@
   .hero span {
     font-size: 0.75rem;
   }
-  .hero p {
-    font-size: 1rem;
-  }
-}
+ }
