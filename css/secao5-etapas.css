@@ -40,9 +40,20 @@
   left: -23px;
 }
 
+.etapas-item1 > p {
+  margin-bottom: 12px;
+}
+
 .briefing-itens {
   display: flex;
+  margin-top: 4px;
+  gap: 4px;
 }
+
+.briefing-itens > img {
+  margin-top: 3px;
+}
+
 .etapas-item2 {
   position: relative;
 }
@@ -83,7 +94,7 @@
   left: -23px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1280px) {
   .etapas ul {
     flex-wrap: wrap;
   }

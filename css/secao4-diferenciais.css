@@ -1,5 +1,5 @@
 .diferenciais > h1 {
-  margin: 60px auto 24px auto;
+  margin: 60px auto 20px auto;
   text-align: center;
   max-width: 620px;
 }
@@ -26,17 +26,50 @@
   margin-bottom: 18px;
 }
 
-.diferenciais-item p {
-  margin-bottom: 18px;
-}
-
-.diferenciais-item p:nth-child(3) {
-  margin-bottom: 8px;
-}
-
 .diferenciais-texto {
   max-width: 540px;
 }
+
+.diferenciais-texto1 p {
+  margin-bottom: 18px;
+}
+.diferenciais-texto1 p:nth-child(2) {
+  margin-bottom: 18px;
+}
+.diferenciais-texto1 p:nth-child(3) {
+  margin-bottom: 4px;
+}
+.diferenciais-texto1 p:nth-child(5) {
+  margin-bottom: 6px;
+}
+
+.diferenciais-texto2 p {
+  margin-bottom: 6px;
+}
+.diferenciais-texto2 p:nth-child(2) {
+  margin-bottom: 18px;
+}
+.diferenciais-texto2 p:nth-child(3) {
+  margin-bottom: 18px;
+}
+.diferenciais-texto2 p:nth-child(5) {
+  margin-bottom: 18px;
+}
+
+.diferenciais-texto3 p {
+  margin-bottom: 6px;
+}
+.diferenciais-texto3 p:nth-child(4) {
+  margin-bottom: 18px;
+}
+
+.diferenciais-texto4 p {
+  margin-bottom: 6px;
+}
+.diferenciais-texto4 p:nth-child(5) {
+  margin-bottom: 18px;
+}
+
 
 .diferenciais-img img {
   width: 100%;

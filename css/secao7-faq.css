@@ -14,7 +14,7 @@
 }
 
 .faq dl > div:nth-child(odd) {
-  background-color: #F5F5F5;
+  background-color: #f5f5f5;
 }
 
 .faq dl > div:nth-child(even) {
@@ -37,8 +37,7 @@
   content: "";
   width: 12px;
   height: 8px;
-  background-color: #7633B1;
- 
+  background-color: #7633b1;
 }
 
 .faq button::after {
@@ -71,3 +70,7 @@
   max-width: 80ch;
 }
 
+.faq-item p {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}

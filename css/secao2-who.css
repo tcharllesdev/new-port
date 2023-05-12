@@ -2,25 +2,32 @@
   padding-bottom: 40px;
 }
 
-.who h1 {
-  margin: 40px 0 24px 0;
+.who h1:first-of-type {
+  margin: 40px 0 20px 0;
   max-width: 660px;
 }
 
 .who li {
   display: flex;
-  align-items: first baseline;
-  gap: 8px;
+  gap: 4px;
   margin-bottom: 12px;
-  max-width: 520px;
+  max-width: 560px;
+}
+
+.who li > img {
+  margin-top: 2px;
+  min-width: 18px;
 }
 
 .who > p:first-of-type {
-  margin-top: 24px;
+  margin-top: 12px;
+}
+.who h1:last-of-type {
+  margin-top: 20px;
 }
 
 .who > p {
-  margin-bottom: 12px;
+  margin-bottom: 8px;
 }
 
 @media (max-width: 450px) {
