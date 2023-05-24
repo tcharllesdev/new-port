@@ -57,7 +57,7 @@
   right: 10vh;
 }
 
-@media (max-width: 1580px) {
+@media (max-width: 1600px) {
   .html-anima {
     top: 10vh;
     right: 40vh;
@@ -132,7 +132,7 @@
   }
 
   .js-anima {
-    top: 60vh;
+    top: 45vh;
     right: 30vh;
   }
 }
