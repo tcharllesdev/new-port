@@ -56,21 +56,36 @@
 
 .faq dd {
   display: none;
-  margin-left: 14px;
+  margin-left: 7px;
   line-height: 1.4;
+  padding-top: 12px;
+  max-width: 80ch;
 }
 
 .faq dd.ativa {
   display: block;
 }
 
-.faq dd {
-  padding-left: 24px;
-  padding-top: 12px;
-  max-width: 80ch;
-}
 
 .faq-item p {
   margin-top: 8px;
   margin-bottom: 8px;
+}
+@media (max-width: 450px) {
+  .faq button {
+    position: relative;
+  }
+  .faq button::before {
+    position: absolute;
+    top: 11px;
+    left: -2px;
+    width: 5px;
+    height: 11px;
+    display: block;
+  }
+}
+@media (max-width: 320px) {
+  .faq h1 {
+    font-size: 1.75rem;
+  }
 }

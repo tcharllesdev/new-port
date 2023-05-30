@@ -17,7 +17,6 @@
   margin-bottom: 18px;
 }
 
-
 .evoluir-etapas {
   display: flex;
   margin-bottom: 8px;
@@ -29,7 +28,7 @@
 
 @media (max-width: 800px) {
   .evoluir-bg {
-    background: url("../img/resultados-ilu.png") no-repeat  10% 0% / 140px;
+    background: url("../img/resultados-ilu.png") no-repeat 10% 0% / 140px;
     height: 560px;
   }
   .evoluir-bg h1 {
@@ -39,7 +38,22 @@
 
 @media (max-width: 450px) {
   .evoluir-bg {
-    background: url("../img/resultados-ilu.png") no-repeat  30% 0% / 140px;
+    background: url("../img/resultados-ilu.png") no-repeat 30% 0% / 140px;
     height: 640px;
+  }
+}
+
+@media (max-width: 360px) {
+  .evoluir-bg {
+    height: 700px;
+  }
+}
+
+@media (max-width: 320px) {
+  .evoluir-bg {
+    height: 800px;
+  }
+  .evoluir-bg > h1 {
+    font-size: 1.75rem;
   }
 }

@@ -198,6 +198,7 @@
   .projetos-img2 {
     align-items: flex-start;
     gap: 20px;
+    margin-top: 12px;
   }
   .projetos-img2 img:nth-child(2) {
     margin-top: 30px;
@@ -223,7 +224,23 @@
 }
 
 @media (max-width: 450px) {
+  .hl-projetos {
+    font-size: 3rem;
+  }
   .feedback-projetos p {
     font-size: 1rem;
+  }
+  .projetos-item-bg {
+    background: linear-gradient(
+      349.73deg,
+      #861688 1.49%,
+      rgba(255, 255, 255, 0.55) 66.12%
+    );
+  }
+}
+
+@media (max-width: 320px) {
+  .feedback-projetos img {
+    max-width: 260px;
   }
 }

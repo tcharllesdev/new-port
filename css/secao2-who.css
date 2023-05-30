@@ -10,7 +10,7 @@
 .who li {
   display: flex;
   gap: 4px;
-  margin-bottom: 12px;
+  margin-bottom: 8px;
   max-width: 560px;
 }
 
@@ -31,6 +31,9 @@
 }
 
 @media (max-width: 450px) {
+  .who h1 {
+    font-size: 1.75rem;
+  }
   .who p {
     font-size: 1rem;
   }

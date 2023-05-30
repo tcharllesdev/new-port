@@ -70,7 +70,6 @@
   margin-bottom: 18px;
 }
 
-
 .diferenciais-img img {
   width: 100%;
 }
@@ -91,7 +90,20 @@
   .diferenciais-item {
     padding: 30px;
   }
+  .diferenciais-item h1 {
+    font-size: 1.5rem;
+  }
+
   .diferenciais p {
     font-size: 1rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .diferenciais > h1 {
+    font-size: 1.75rem;
+  }
+  .diferenciais-item {
+    padding: 20px;
   }
 }
