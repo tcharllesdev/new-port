@@ -43,7 +43,7 @@
 }
 .font-sub {
   /*16 bold*/
-  font: 700 1.125rem/1.125 "Fira Code", sans-serif;
+  font: 700 1.125rem/1.3 "Fira Code", sans-serif;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }

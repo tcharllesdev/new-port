@@ -62,7 +62,7 @@ gsap.to(galeria1, {
     start: "top top",
     end: () => "+=" + projetosGaleria.offsetWidth,
     pin: true,
-    scrub: 0.2,
+    scrub: 1,
     snap: 1 / (galeria1.length - 1),
   },
 });
