@@ -151,7 +151,7 @@
   margin: 60px auto;
 }
 .feedback-projetos img {
-  max-width: 300px;
+  max-width: 260px;
   border-radius: 50%;
   margin: 0px auto 24px auto;
   display: block;
@@ -223,6 +223,9 @@
 }
 
 @media (max-width: 450px) {
+  .feedback-projetos img {
+    max-width: 240px;
+  }
   .hl-projetos {
     font-size: 2rem;
   }
@@ -238,8 +241,8 @@
   }
 }
 
-@media (max-width: 320px) {
+/* @media (max-width: 320px) {
   .feedback-projetos img {
     max-width: 260px;
   }
-}
+} */
