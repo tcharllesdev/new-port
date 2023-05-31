@@ -183,7 +183,6 @@
   .projetos-item {
     flex-wrap: wrap;
     justify-content: left;
-    padding-top: 140px;
     padding-left: 0;
     padding-right: 0;
     gap: 0;
@@ -225,7 +224,7 @@
 
 @media (max-width: 450px) {
   .hl-projetos {
-    font-size: 3rem;
+    font-size: 2rem;
   }
   .feedback-projetos p {
     font-size: 1rem;

@@ -34,8 +34,9 @@ gsap.to(".hl-projetos-bg", {
   scrollTrigger: {
     trigger: ".hl-projetos-bg",
     scrub: 1,
-    start: "top 10%",
-    end: "+=140",
+    start: "top 30%",
+    end: "+=260",
+    markers: true,
   },
 });
 
@@ -44,8 +45,8 @@ gsap.to(".hl-projetos", {
   scrollTrigger: {
     trigger: ".hl-projetos-bg",
     scrub: 1,
-    start: "top 10%",
-    end: "+=140",
+    start: "top 30%",
+    end: "+=260",
   },
 });
 
