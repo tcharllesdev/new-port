@@ -102,7 +102,7 @@
   justify-content: space-between;
   align-items: center;
   gap: 60px;
-  background: #f1eaf8;
+  background: linear-gradient(180.52deg, #ffffff -3.09%, #e6bde1 103.3%);
   box-shadow: 6px 4px 6px rgba(214, 194, 232, 0.5);
   border-radius: 5px;
   padding: 260px 0;
