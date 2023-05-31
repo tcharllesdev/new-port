@@ -36,7 +36,6 @@ gsap.to(".hl-projetos-bg", {
     scrub: 1,
     start: "top 30%",
     end: "+=260",
-    markers: true,
   },
 });
 
