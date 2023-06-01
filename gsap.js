@@ -61,7 +61,7 @@ gsap.to(galeria1, {
     trigger: ".projetos",
     start: "top top",
     // end: () => "+=" + projetosGaleria.offsetWidth,
-    end: "+=4000",
+    end: "+=2000",
     pin: true,
     scrub: 1,
     snap: 1 / (galeria1.length - 1),
