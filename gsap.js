@@ -60,21 +60,21 @@ gsap.to(galeria1, {
   scrollTrigger: {
     trigger: ".projetos",
     start: "top top",
-    // end: () => "+=" + projetosGaleria.offsetWidth,
-    end: "+=700",
+    end: () => "+=" + projetosGaleria.offsetWidth,
+    // end: "+=700",
     pin: true,
-    scrub: 1,
+    scrub: 0.2,
     snap: 1 / (galeria1.length - 1),
   },
 });
 
-// let mm = gsap.matchMedia();
-// mm.add("(max-width: 450px)", () => {
-//   gsap.to(galeria1, {
-//     end: "+=700",
-//     scrub: 1,
-//   });
-// });
+let mm = gsap.matchMedia();
+mm.add("(max-width: 450px)", () => {
+  gsap.to(galeria1, {
+    end: "+=700",
+    scrub: 2,
+  });
+});
 
 /// PIN VERTICAL SCROLL
 
