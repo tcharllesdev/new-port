@@ -19,7 +19,12 @@
 
 .evoluir-etapas {
   display: flex;
+  gap: 4px;
+  align-items: start;
   margin-bottom: 8px;
+}
+.evoluir-etapas img {
+  margin-top: 2px;
 }
 
 .evoluir-bg a {
