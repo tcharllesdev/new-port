@@ -72,7 +72,7 @@ let mm = gsap.matchMedia();
 mm.add("(max-width: 450px)", () => {
   gsap.to(galeria1, {
     scrollTrigger: {
-      end: "+=700",
+      end: "+=7000",
       scrub: 2,
       markers: true,
     },
