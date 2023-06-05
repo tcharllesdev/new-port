@@ -74,6 +74,7 @@ mm.add("(max-width: 450px)", () => {
     scrollTrigger: {
       end: "+=700",
       scrub: 2,
+      markers: true,
     },
   });
 });
