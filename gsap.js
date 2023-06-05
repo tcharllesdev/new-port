@@ -71,8 +71,10 @@ gsap.to(galeria1, {
 let mm = gsap.matchMedia();
 mm.add("(max-width: 450px)", () => {
   gsap.to(galeria1, {
-    end: "+=700",
-    scrub: 2,
+    scrollTrigger: {
+      end: "+=700",
+      scrub: 2,
+    },
   });
 });
 
