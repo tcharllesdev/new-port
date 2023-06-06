@@ -179,6 +179,10 @@
   margin-top: 120px;
 }
 
+.feed2 a {
+  margin-top: 40px;
+}
+
 @media (max-width: 800px) {
   .projetos-item {
     flex-wrap: wrap;
