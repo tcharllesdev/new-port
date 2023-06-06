@@ -243,6 +243,9 @@
       rgba(255, 255, 255, 0.55) 66.12%
     );
   }
+  .feed2 a {
+    font-size: 1.3rem;
+  }
 }
 
 /* @media (max-width: 320px) {
