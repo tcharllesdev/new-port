@@ -1,11 +1,3 @@
-/* .hero-bg {
-  background: url("../img/icons/html-gradient.svg") no-repeat 80% 30%,
-    url("../img/icons/css-gradient.svg") no-repeat 60% 10%,
-    url("../img/icons/javascript-gradient.svg") no-repeat 60% 60%,
-    url("../img/hero-img-o.png") no-repeat 80% 70%/550px;
-  animation: 8s infinite alternate background;
-} */
-
 .hero-bg {
   background: url("../img/hero-img-o.png") no-repeat 80% 70%/550px;
 }

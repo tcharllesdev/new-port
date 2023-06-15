@@ -101,13 +101,13 @@
 
 @media (max-width: 450px) {
   .links-bg {
-    background: rgba(255, 255, 255, 0.35);
+    background: rgba(255, 255, 255, 0.8);
     border-radius: 0;
   }
   .main-bg::before {
     content: "";
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 1);
   }
   .links-main h1 {
     text-align: center;
