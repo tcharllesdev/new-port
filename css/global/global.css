@@ -10,7 +10,8 @@ span,
 ul,
 li,
 img,
-a {
+a,
+body {
   margin: 0;
   padding: 0;
   text-decoration: none;
@@ -49,8 +50,7 @@ img {
   font-style: normal;
   font-weight: 700;
   src: url("./fonts/inter-v12-latin-700.eot"); /* IE9 Compat Modes */
-  src: url("./fonts/inter-v12-latin-700.eot?#iefix")
-      format("embedded-opentype"),
+  src: url("./fonts/inter-v12-latin-700.eot?#iefix") format("embedded-opentype"),
     /* IE6-IE8 */ url("./fonts/inter-v12-latin-700.woff2") format("woff2"),
     /* Super Modern Browsers */ url("./fonts/inter-v12-latin-700.woff")
       format("woff"),

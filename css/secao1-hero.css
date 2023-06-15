@@ -2,12 +2,12 @@
   background: url("../img/icons/html-gradient.svg") no-repeat 80% 30%,
     url("../img/icons/css-gradient.svg") no-repeat 60% 10%,
     url("../img/icons/javascript-gradient.svg") no-repeat 60% 60%,
-    url("../img/hero-img.png") no-repeat 80% 70%/550px;
+    url("../img/hero-img-o.png") no-repeat 80% 70%/550px;
   animation: 8s infinite alternate background;
 } */
 
 .hero-bg {
-  background: url("../img/hero-img.png") no-repeat 80% 70%/550px;
+  background: url("../img/hero-img-o.png") no-repeat 80% 70%/550px;
 }
 
 .hero {
@@ -120,7 +120,7 @@
 }
 @media (max-width: 1024px) {
   .hero-bg {
-    background: url("../img/hero-img.png") no-repeat 100% 100%/ 550px;
+    background: url("../img/hero-img-o.png") no-repeat 100% 100%/ 550px;
   }
   .html-anima {
     top: 10vh;
@@ -139,7 +139,7 @@
 
 @media (max-width: 800px) {
   .hero-bg {
-    background: url("../img/hero-img.png") no-repeat 0% 0%/ 420px;
+    background: url("../img/hero-img-o.png") no-repeat 0% 0%/ 420px;
   }
   .html-anima {
     top: -35vh;
@@ -164,7 +164,7 @@
 
 @media (max-width: 450px) {
   .hero-bg {
-    background: url("../img/hero-img.png") no-repeat 0% 0%/ 380px;
+    background: url("../img/hero-img-o.png") no-repeat 0% 0%/ 380px;
   }
   .hero img {
     margin-top: 360px;
@@ -190,7 +190,7 @@
 
 @media (max-width: 340px) {
   .hero-bg {
-    background: url("../img/hero-img.png") no-repeat 0% 0%/ 320px;
+    background: url("../img/hero-img-o.png") no-repeat 0% 0%/ 320px;
   }
   .float-icons img {
     max-width: 60px;

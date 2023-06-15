@@ -1,0 +1,138 @@
+.main-bg {
+  background: url("../img/teste-bg2.jpg");
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+.main-bg::before {
+  content: "";
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  z-index: -1000;
+}
+
+.links-bg {
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.4px);
+  -webkit-backdrop-filter: blur(6.4px);
+  max-width: 500px;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.links-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.avatar-img img {
+  border-radius: 50%;
+  border: 4px solid #4e2274;
+  margin-top: 20px;
+  max-width: 200px;
+  margin-bottom: 20px;
+}
+
+.links-main > h1 {
+  margin-bottom: 4px;
+  font-size: 2.5rem;
+}
+
+.links-main > span {
+  font-size: 1rem;
+}
+
+.links-main > span:last-of-type {
+  margin-bottom: 24px;
+}
+.links-main p {
+  max-width: 420px;
+  margin-top: 6px;
+}
+
+.links-main p:last-of-type {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.links-main > a {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+  font-size: 1.125rem;
+}
+
+.links-main > a img {
+  max-width: 28px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding-bottom: 12px;
+}
+
+.footer a {
+  font-size: 0.875rem;
+}
+
+.footer a:first-of-type {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.footer img {
+  max-width: 20px;
+}
+
+@media (max-width: 450px) {
+  .links-bg {
+    background: rgba(255, 255, 255, 0.35);
+    border-radius: 0;
+  }
+  .main-bg::before {
+    content: "";
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  .links-main h1 {
+    text-align: center;
+    font-size: 2rem;
+  }
+  .links-main > span:last-of-type {
+    margin-bottom: 12px;
+  }
+  .links-main p {
+    font-size: 1rem;
+  }
+  .links-main > a {
+    margin-bottom: 14px;
+  }
+}
+@media (max-width: 360px) {
+  .links-main > a:first-of-type {
+    gap: 6px;
+  }
+}
+
+@media (max-width: 320px) {
+  .main-bg,
+  .main-bg::before,
+  .links-bg {
+    height: 100%;
+  }
+}
